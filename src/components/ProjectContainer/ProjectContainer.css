@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Belanosima&family=Crimson+Text&family=Kanit:wght@300&family=Montserrat:ital,wght@0,300;0,600;1,300&family=Source+Serif+4:wght@300;500&display=swap');
+
+.projectContainer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    margin: 20px 0;
+    align-items: center;
+    padding-top: 75px;
+}
+.projectContainer >h1{
+    padding-bottom: 15px;
+}
+.projectContainer >p{
+    padding-bottom: 20px;
+}
+.projectContainer__projects{
+    display: flex;
+    width: 75vw;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    }

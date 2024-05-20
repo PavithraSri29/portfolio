@@ -1,0 +1,36 @@
+.certificate__img {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    margin: 20px 0;
+    align-items: center;
+    padding-top: 75px;
+  }
+  
+  .certificate__img > h1 {
+    padding-bottom: 15px;
+  }
+  
+  .certificate__img-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .certificate__img img {
+    width: 250px;
+    height: 175px;
+    padding: 20px;
+    border-radius: 40px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .certificate__img img:hover {
+    transform: scale(1.2);
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    cursor: pointer;
+  }
+  
